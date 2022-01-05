@@ -18,7 +18,6 @@ const Portfolio = () => {
       .get("data.json")
       .then((res) => {
         setImages(res.data.portfolio);
-        console.log(res.data.portfolio);
       })
       .catch((err) => {
         console.log(err);

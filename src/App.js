@@ -9,7 +9,7 @@ class App extends Component {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Index />} />
+          <Route path="/new-way1" element={<Index />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
