@@ -20,7 +20,7 @@ const Navbar = () => {
 
         <Ullist>
           <Listitem>
-            <Linkstayle to="/">Home</Linkstayle>
+            <Linkstayle to="/new-way1">Home</Linkstayle>
           </Listitem>
           <Listitem>
             <Anchor>Work</Anchor>
